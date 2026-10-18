@@ -12,7 +12,7 @@ authors:
 license: CC-BY-NC-SA-4.0
 version: "0.2.0"
 date-released: "2026-09-26"
-repository-code: "https://github.com/ManfredCh/ai-security-book"
+repository-code: "https://github.com/ManfredCh/hello-ai-security"
 keywords:
   - AI security
   - adversarial machine learning
