@@ -142,3 +142,4 @@ An unfamiliar abbreviation may still turn up in a chapter. Start with the Chines
 26. [Chapter 20 From Threat Model to Operating Institutions](26-Chapter-20-From-Threat-Model-to-Operating-Inst.md)
 27. [Appendix](27-Appendix.md)
 28. [Appendix E — Post-cutoff update (2026-08-09 → 2026-09-26)](28-Appendix-E-Post-cutoff-update-2026-08-09-2026-.md)
+29. [Appendix F — Post-cutoff update (2026-09-26 → 2026-10-25)](29-Appendix-F-Post-cutoff-update-2026-09-26-2026-.md)

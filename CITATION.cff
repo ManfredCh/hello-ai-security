@@ -10,8 +10,8 @@ authors:
     alias: "程明骏"
     affiliation: "Vorynel Co.,Ltd"
 license: CC-BY-NC-SA-4.0
-version: "0.2.0"
-date-released: "2026-09-26"
+version: "0.3.0"
+date-released: "2026-10-25"
 repository-code: "https://github.com/ManfredCh/hello-ai-security"
 keywords:
   - AI security

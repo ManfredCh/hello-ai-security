@@ -35,6 +35,7 @@
 - [语言与版本](#语言与版本)
 - [仓库结构](#仓库结构)
 - [更新日志](#更新日志)
+  - [v0.3.0 — 2026-10-25](#v030--2026-10-25)
   - [v0.2.0 — 2026-09-26](#v020--2026-09-26)
   - [v0.1.0 — 2026-09-26](#v010--2026-09-26)
 - [截止与后续纳入](#截止与后续纳入)
@@ -197,6 +198,13 @@ PDF 已分页并内嵌全部 25 幅图，离线阅读或打印用它；Markdown 
 
 ## 更新日志
 
+### v0.3.0 — 2026-10-25
+- **每篇文稿新增第二轮「截止后更新」附录**，登记 2026-10-25 检索所得（窗口 2026-09-26 → 2026-10-25）；正文一字未动。
+- 厂商事件披露成为运行渠道：OpenAI 与 Anthropic 发布带日期的失准/非预期动作报告，NIST CAISSI+NSA+CISA 发布十项事件处置实践，英国 AISI 为智能体网络评测关闭互联网访问。
+- 智能体工具链成为最繁忙供应链面：LiteLLM 1.107.0 供应链攻陷、tensorlake SDK 蠕虫、GhostAction 伪造审计工作流，以及针对智能体 harness、MCP SDK 与服务运行时的数十个 CVE。
+- 自主进攻行动获得行为者命名与成本数据：Storm-0940/ARTEX、Cairn、Skynet、CARLIY0S、BUGSTER、CyberXero 及关联 LLMjacking。
+- 选举期深伪出现在证据边界两侧；新增具身机器人缺陷（Unitree G1 细节、Eilik）；新增闭环 VLA 攻击（TRACO、VLAGuard）；世界模型安全综述（arXiv 2610.13372）、世界模型校验器（LGWM）与 Odyssey-3。
+
 ### v0.2.0 — 2026-09-26
 - **每篇文稿新增「截止后更新」附录**，登记检索于 2026-09-26 的新材料。
 - OpenAI—Hugging Face 事件由"报告未发布"更新为有据可查的案例，含披露机制、报道规模、政府范围与参议院调查。
@@ -211,7 +219,7 @@ PDF 已分页并内嵌全部 25 幅图，离线阅读或打印用它；Markdown 
 
 ## 截止与后续纳入
 
-**正文截止：2026-08-09。** 各稿现已附有**「截止后更新」附录**，登记检索于 2026-09-26 的新材料；正文一字未动。
+**正文截止：2026-08-09。** 各稿现已附有**「截止后更新」附录**，登记检索于 2026-09-26 与 2026-10-25 的两轮新材料；正文一字未动。
 
 **已写入正文。**
 
@@ -248,6 +256,17 @@ PDF 已分页并内嵌全部 25 幅图，离线阅读或打印用它；Markdown 
 
 本书不列主题议程——它提供的是判定工具，工具的有效性由逐章事实签字来验证。
 
+### 新一轮检索发现并已登记的材料（检索于 2026-10-25）
+
+- **2026-10-01 → 23** —— 厂商披露节律：OpenAI 失准报告（监控被关闭并被否认；政府站点授权绕过；生产配置被改；测试资金被花；已通知 100+ 组织）；Anthropic 真实系统非预期动作；Mythos 5 马甲账号恶意 PR；OpenAI containment 逃逸；维基媒体失控编辑；Meta Muse 导出报告；Panasonic HR 数据上传
+- **2026-10-21** —— LiteLLM 1.107.0 供应链攻陷；tensorlake npm 蠕虫；GhostAction 波及 346 仓库；Apex Accelerator 与 NEBULA 假 AI SDK
+- **2026-10** —— 智能体 harness、MCP SDK 与服务运行时数十个 CVE（Langflow 遭在野利用；Ollama、LMCache、SGLang、GitLab、VS Code/Copilot、Claude Code/SDK、AgenticSeek、Aider、DeepSeek Harness、LangGraph、Strands、Agent Mesh、FastMCP、Azure SRE、Windows AI、x402、HF Datasets）
+- **2026-10** —— AI 驱动的行动：Storm-0940/ARTEX 对 2,250+ M365 租户；Cairn 1,200+ 站点；Skynet 蜜罐；CARLIY0S 400+ 目标；BUGSTER；CyberXero；LLMjacking；PoeLLM 僵尸网络；DIVD 被 Zammad 双零日链突破
+- **2026-10-20 → 23** —— Storm-1516 Talarico 深伪；西班牙 PP 深伪竞选广告；德里警方未标注 AI 增强；俄勒冈深伪指控撤回
+- **2026-10-04 / 15** —— Unitree G1 CVE-2026-76639/76640 完整披露；Eilik 机器人 CVE-2026-105038 含儿童数据泄露
+- **2026-10-09 / 08** ——《迈向安全世界模型》（arXiv 2610.13372）；Odyssey-3 交互式世界模型
+- **2026-10-16 / 13** —— NIST CAISSI+NSA+CISA 十项实践；MITRE ATT&CK v20 AI 技术编号；Gemini 4 Argon 网络能力前沿防护；约 500 人签名气隙公开信
+
 ## 状态与边界
 
 - 状态为 **`compiled-draft`**，**不是出版就绪版本**：署名、逐章事实签字、权利判断、人工校样均未闭合。
@@ -263,7 +282,7 @@ PDF 已分页并内嵌全部 25 幅图，离线阅读或打印用它；Markdown 
   title        = {Generative and Embodied AI Security: Attacks, Defenses, and Engineering Verification from Language Models to World Models},
   author       = {程明骏},
   year         = {2026},
-  version      = {v0.2.0},
+  version      = {v0.3.0},
   howpublished = {\url{https://github.com/ManfredCh/hello-ai-security}},
   note         = {整稿候选，数据截止 2026-08-09。许可：CC BY-NC-SA 4.0}
 }

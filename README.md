@@ -38,6 +38,7 @@
 - [Languages and editions](#languages-and-editions)
 - [Repository layout](#repository-layout)
 - [Changelog](#changelog)
+  - [v0.3.0 — 2026-10-25](#v030--2026-10-25)
   - [v0.2.0 — 2026-09-26](#v020--2026-09-26)
   - [v0.1.0 — 2026-09-26](#v010--2026-09-26)
 - [Cutoff and what comes next](#cutoff-and-what-comes-next)
@@ -207,6 +208,21 @@ reading material. Ask if you want it published.
 
 ## Changelog
 
+### v0.3.0 — 2026-10-25
+- **Second post-cutoff appendix added to every document**, covering material found in a search on
+  2026-10-25 (window 2026-09-26 → 2026-10-25). The body text remains unchanged.
+- Vendor incident disclosure became a running channel: OpenAI and Anthropic published dated
+  misalignment/unintended-action reports, NIST CAISSI+NSA+CISA shipped a ten-practice incident
+  playbook, and the UK AISI cut internet access from agentic cyber evaluations.
+- The agent toolchain became the busiest supply-chain surface: the LiteLLM 1.107.0 compromise, the
+  tensorlake SDK worm, GhostAction's fake audit workflows, and dozens of CVEs on agent harnesses,
+  MCP SDKs and serving runtimes.
+- Autonomous offensive operations recorded with named actors and unit costs: Storm-0940/ARTEX,
+  Cairn, Skynet, CARLIY0S, BUGSTER, CyberXero and related LLMjacking campaigns.
+- Election-period deepfakes on both sides of the evidence boundary; new embodied-robot flaws
+  (Unitree G1 details, Eilik); new closed-loop VLA attacks (TRACO, VLAGuard); a lifecycle-wide
+  world-model safety survey (arXiv 2610.13372), a world-model verifier (LGWM) and Odyssey-3.
+
 ### v0.2.0 — 2026-09-26
 - **Post-cutoff appendix added to every document**, covering material found in a search on 2026-09-26.
 - The OpenAI–Hugging Face incident is updated from "report unpublished" to a documented case, including
@@ -224,7 +240,7 @@ reading material. Ask if you want it published.
 ## Cutoff and what comes next
 
 **Body cutoff: 2026-08-09.** Each document now carries a **post-cutoff appendix** covering material
-found in a search on 2026-09-26; the body text itself is unchanged.
+found in searches on 2026-09-26 and 2026-10-25; the body text itself is unchanged.
 
 **Now written into the documents.**
 
@@ -268,6 +284,17 @@ found in a search on 2026-09-26; the body text itself is unchanged.
 The book carries no topic agenda — it supplies a judgement instrument whose validity is established
 by that sign-off.
 
+### Found in the latest search and now recorded (searched 2026-10-25)
+
+- **2026-10-01 → 23** — Vendor disclosure cadence: OpenAI misalignment reports (monitoring disabled and denied; authorisation bypass on a government site; config changed; test funds spent; 100+ organisations notified); Anthropic unintended actions on live systems; Mythos 5 malicious PR via sock puppets; OpenAI containment escapes; Wikimedia rogue edits; Meta Muse export reports; Panasonic HR upload
+- **2026-10-21** — LiteLLM 1.107.0 supply-chain compromise; tensorlake npm worm; GhostAction wave on 346 repos; Apex Accelerator and NEBULA fake AI SDK campaigns
+- **2026-10** — Dozens of CVEs on agent harnesses, MCP SDKs and serving runtimes (Langflow exploited in the wild; Ollama, LMCache, SGLang, GitLab, VS Code/Copilot, Claude Code/SDK, AgenticSeek, Aider, DeepSeek Harness, LangGraph, Strands, Agent Mesh, FastMCP, Azure SRE, Windows AI, x402, HF Datasets)
+- **2026-10** — AI-run operations: Storm-0940/ARTEX vs 2,250+ M365 tenants; Cairn 1,200+ sites; Skynet honeypot; CARLIY0S 400+ targets; BUGSTER; CyberXero; LLMjacking; PoeLLM botnet; DIVD breach via chained Zammad zero-days
+- **2026-10-20 → 23** — Storm-1516 Talarico deepfakes; Spain PP deepfake election ad; Delhi Police unlabelled AI edits; Oregon deepfake-accusation retraction
+- **2026-10-04 / 15** — Unitree G1 CVE-2026-76639/76640 write-ups; Eilik robot CVE-2026-105038 with child-data exposure
+- **2026-10-09 / 08** — *Towards Safe World Models* (arXiv 2610.13372); Odyssey-3 interactive world model
+- **2026-10-16 / 13** — NIST CAISSI+NSA+CISA ten practices; MITRE ATT&CK v20 AI technique IDs; Gemini 4 Argon cyber-capability safeguards; ~500-signature air-gap letter
+
 ## Status and limits
 
 - Status is **`compiled-draft`** — **not publication-ready**. Authorship, chapter-by-chapter
@@ -285,7 +312,7 @@ by that sign-off.
   title        = {Generative and Embodied AI Security: Attacks, Defenses, and Engineering Verification from Language Models to World Models},
   author       = {Mingjun Cheng},
   year         = {2026},
-  version      = {v0.2.0},
+  version      = {v0.3.0},
   howpublished = {\url{https://github.com/ManfredCh/hello-ai-security}},
   note         = {Compiled draft, data cutoff 2026-08-09. Licence: CC BY-NC-SA 4.0}
 }
