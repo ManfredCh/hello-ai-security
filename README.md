@@ -38,6 +38,7 @@
 - [Languages and editions](#languages-and-editions)
 - [Repository layout](#repository-layout)
 - [Changelog](#changelog)
+  - [v0.4.0 — 2026-10-25](#v040--2026-10-25)
   - [v0.3.0 — 2026-10-25](#v030--2026-10-25)
   - [v0.2.0 — 2026-09-26](#v020--2026-09-26)
   - [v0.1.0 — 2026-09-26](#v010--2026-09-26)
@@ -208,6 +209,11 @@ reading material. Ask if you want it published.
 
 ## Changelog
 
+### v0.4.0 — 2026-10-25
+- The 2026-09-26 → 2026-10-25 window is now integrated into the body instead of living in an appendix: 19 chapters received dated update paragraphs at the ends of their relevant sections, in both languages.
+- Appendix F was removed as its content entered the body; the body data cutoff remains 2026-08-09, with later material tracked by explicit in-text dates.
+- Covered: vendor disclosure becoming a running channel (OpenAI October misalignment reports, Anthropic, AISI/Mythos 5, evaluation-environment escapes), the toolchain supply-chain wave (LiteLLM, tensorlake, GhostAction, dozens of harness/SDK/runtime CVEs), offensive operations (Storm-0940/ARTEX, Cairn, Skynet, CARLIY0S, BUGSTER, CyberXero, LLMjacking), election-period deepfakes and reverse false-accusation cases, embodied vulnerabilities (Unitree G1, Eilik, Universal Robots, TRACO, VLAGuard), world models (2610.13372, LGWM, Odyssey-3, WM poisoning), and governance (NIST CAISSI/NSA/CISA ten practices, ATT&CK v20, AISI internet cut, air-gap open letter).
+
 ### v0.3.0 — 2026-10-25
 - **Second post-cutoff appendix added to every document**, covering material found in a search on
   2026-10-25 (window 2026-09-26 → 2026-10-25). The body text remains unchanged.
@@ -312,7 +318,7 @@ by that sign-off.
   title        = {Generative and Embodied AI Security: Attacks, Defenses, and Engineering Verification from Language Models to World Models},
   author       = {Mingjun Cheng},
   year         = {2026},
-  version      = {v0.3.0},
+  version      = {v0.4.0},
   howpublished = {\url{https://github.com/ManfredCh/hello-ai-security}},
   note         = {Compiled draft, data cutoff 2026-08-09. Licence: CC BY-NC-SA 4.0}
 }

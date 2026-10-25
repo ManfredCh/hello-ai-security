@@ -496,6 +496,9 @@ This approach begins with a simple question: what can the system really change? 
 
 Model families will keep multiplying, and terminology will keep changing. Security work can still answer the five questions of assets, trust, capability, evidence, and recovery. As long as it can, new systems can reuse the analytical skeleton already established.
 
+
+The October window is, in effect, this chapter's worked example at industry scale. Disclosure became a running vendor channel; NIST CAISSI, the NSA and CISA published a ten-practice incident playbook; MITRE ATT&CK v20 added AI technique IDs; and an open letter calling for air-gapped containment of cyber-capable models gathered roughly 500 signatories. Offensive operations acquired named actors and unit costs — Storm-0940/ARTEX's 2,250+ tenants, Cairn's 1,200+ probed sites, the Skynet honeypot, CARLIY0S, BUGSTER, CyberXero. Offensive-capability measurement professionalised in parallel: XBOW's six-day Chrome chain earned the $250,000 top reward, Microsoft's FORGE Lab reached 140 Windows CVEs, PHP2Shell and Node2Shell were AI-assisted RCE discoveries, Tencent's Corvus found a 2017 kernel flaw in about two hours, and VulnCheck reports that 51% of vulnerability reporters now say AI found the bug. The operating regime the book ends on is no longer a proposal; it is being assembled in public.
+
 ---
 
 [← Back to contents](index.md)

@@ -35,6 +35,7 @@
 - [语言与版本](#语言与版本)
 - [仓库结构](#仓库结构)
 - [更新日志](#更新日志)
+  - [v0.4.0 — 2026-10-25](#v040--2026-10-25)
   - [v0.3.0 — 2026-10-25](#v030--2026-10-25)
   - [v0.2.0 — 2026-09-26](#v020--2026-09-26)
   - [v0.1.0 — 2026-09-26](#v010--2026-09-26)
@@ -198,6 +199,11 @@ PDF 已分页并内嵌全部 25 幅图，离线阅读或打印用它；Markdown 
 
 ## 更新日志
 
+### v0.4.0 — 2026-10-25
+- 2026-09-26 → 2026-10-25 窗口材料不再以附录承载，而是直接融入正文：19 个章节在相关小节末尾获得带日期的更新段落（中英双语）。
+- 附录 F 已随内容入正文而移除；正文数据截止仍为 2026-08-09，后续材料以正文内的显式日期记录追踪。
+- 涵盖：厂商披露常态化（OpenAI 10 月失准报告、Anthropic、AISI/Mythos 5、评测环境逃逸）、工具链供应链攻陷潮（LiteLLM、tensorlake、GhostAction、数十个 harness/SDK/运行时 CVE）、进攻性行动（Storm-0940/ARTEX、Cairn、Skynet、CARLIY0S、BUGSTER、CyberXero、LLMjacking）、选举期深伪与反向误指控、具身漏洞（Unitree G1、Eilik、Universal Robots、TRACO、VLAGuard）、世界模型（2610.13372、LGWM、Odyssey-3、WM 投毒）与治理（NIST CAISSI/NSA/CISA 十项实践、ATT&CK v20、AISI 断网、气隙公开信）。
+
 ### v0.3.0 — 2026-10-25
 - **每篇文稿新增第二轮「截止后更新」附录**，登记 2026-10-25 检索所得（窗口 2026-09-26 → 2026-10-25）；正文一字未动。
 - 厂商事件披露成为运行渠道：OpenAI 与 Anthropic 发布带日期的失准/非预期动作报告，NIST CAISSI+NSA+CISA 发布十项事件处置实践，英国 AISI 为智能体网络评测关闭互联网访问。
@@ -282,7 +288,7 @@ PDF 已分页并内嵌全部 25 幅图，离线阅读或打印用它；Markdown 
   title        = {Generative and Embodied AI Security: Attacks, Defenses, and Engineering Verification from Language Models to World Models},
   author       = {程明骏},
   year         = {2026},
-  version      = {v0.3.0},
+  version      = {v0.4.0},
   howpublished = {\url{https://github.com/ManfredCh/hello-ai-security}},
   note         = {整稿候选，数据截止 2026-08-09。许可：CC BY-NC-SA 4.0}
 }

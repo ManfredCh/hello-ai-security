@@ -372,6 +372,9 @@ A procurement transaction maintains explicit states among preparation, approval,
 
 Trajectory, isolation and recovery together supply operational evidence. The public event envelope keeps object references, results and evidence locations. Highly sensitive data, such as raw audio, is held only for the minimum retention period. Allow, deny and post-destruction probes then verify the business path, boundary crossings and residue, in that order. The system defines degraded tiers such as read-only, manual approval and restricted automation. Separately, it specifies trusted recovery points, RPO, RTO and a benign control before recovery, for the identity service, the state service and action authorization.
 
+
+The month's toolchain wave — the LiteLLM compromise, the SDK worms, GhostAction's fake audit workflows, and dozens of CVEs across agent harnesses, MCP SDKs and serving runtimes — is this chapter's dependency graph operating in the open: one compromised package moved laterally into every agent stack that imported it. Counterweights appeared in kind. MITRE ATT&CK v20 gave detection teams AI technique IDs; the Agent Baseline project published a four-boundary reference architecture for coding agents; Microsoft shipped the MXC sandbox SDK; and Perplexity open-sourced SPACE, the Firecracker microVM sandbox behind its agent. The control plane is now an industry artefact, not only a design recommendation.
+
 ## Summary: What Is Shared Is Control, Not Model Assumptions
 
 The four classes of systems need not share one model. Nor must they share one set of attack metrics. What they must share is trusted provenance, identity and purpose propagation, the state lifecycle, independent action authorization, an isolation budget, a unified trajectory and recoverable operation. Specialized defenses lower the probability of one class of failure. The shared control plane limits how far a failure propagates across domains, and how severe the final consequences are.

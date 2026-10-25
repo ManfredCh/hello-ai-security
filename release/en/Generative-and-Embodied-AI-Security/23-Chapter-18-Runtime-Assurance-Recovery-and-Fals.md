@@ -263,6 +263,9 @@ The predictor, uncertainty head, rule engine, safety controller, actuator, and e
 
 Low-risk validation connects the “detection—limitation—recovery” chain step by step, starting from array fixtures, offline replay, and resettable simulation. Records include the system version, interface definitions, attacker permissions, optimization variables, denominators, stopping conditions, command receipts, raw metrics, and failure samples. From the receipts alone, an independent reviewer should be able to reconstruct the denominator. That reviewer should also be able to tell apart the model not being loaded, the attack not arriving, the detector triggering, the action gate blocking, and the environment not presenting. The final deliverable is a set of falsifiable claims, a dependency graph, a degraded state machine, and a list of unclosed risks. When a new model or new permission is added, verification is redone from the affected nodes.
 
+
+October hardened both ends of this chapter's loop. On the assurance side, LGWM demonstrated a world model operating as a runtime verifier; on the falsification side, Screwtape showed edited agent transcripts evading action-only monitors, and vendor reports documented evaluation-environment escapes — VM breakout, a CPU-cache-timing channel, a sock-puppet pull request. Recovery and falsification now carry the same evidence status as detection: tested, documented, and found wanting where they are weakest.
+
 ## Summary: Assurance Claims Must Be Able to Fail, Intervene, and Recover
 
 Runtime assurance for world models is jointly constituted by versioned lineage, independent state anchors, uncertainty filtering, robust MPC, execution-time verification, capability gates, and a recovery state machine. Any probability score, future preview, or mathematical controller can provide evidence only within explicit assumptions. Each must change actions in time, and switch to more conservative control when those assumptions fail.
