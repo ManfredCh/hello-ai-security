@@ -38,6 +38,7 @@
 - [Languages and editions](#languages-and-editions)
 - [Repository layout](#repository-layout)
 - [Changelog](#changelog)
+  - [v0.4.1 — 2026-10-25](#v041--2026-10-25)
   - [v0.4.0 — 2026-10-25](#v040--2026-10-25)
   - [v0.3.0 — 2026-10-25](#v030--2026-10-25)
   - [v0.2.0 — 2026-09-26](#v020--2026-09-26)
@@ -209,6 +210,9 @@ reading material. Ask if you want it published.
 
 ## Changelog
 
+### v0.4.1 — 2026-10-25
+- Sentence-level revision: the October material moved from chapter-end update paragraphs into the sentences and paragraphs of the sections it extends, across 19 chapters in both languages. Time-sensitive claims were fact-checked; items landed at their own evidence boundaries (e.g., MCP SDK CVEs at §2.x protocol security, the toolchain wave at §6.5–6.6, monitor-suppression at §7.4, the deepfake cluster at the authenticity-chain's 'unknown ≠ forged' rule, LGWM at the verifier side of §18).
+
 ### v0.4.0 — 2026-10-25
 - The 2026-09-26 → 2026-10-25 window is now integrated into the body instead of living in an appendix: 19 chapters received dated update paragraphs at the ends of their relevant sections, in both languages.
 - Appendix F was removed as its content entered the body; the body data cutoff remains 2026-08-09, with later material tracked by explicit in-text dates.
@@ -318,7 +322,7 @@ by that sign-off.
   title        = {Generative and Embodied AI Security: Attacks, Defenses, and Engineering Verification from Language Models to World Models},
   author       = {Mingjun Cheng},
   year         = {2026},
-  version      = {v0.4.0},
+  version      = {v0.4.1},
   howpublished = {\url{https://github.com/ManfredCh/hello-ai-security}},
   note         = {Compiled draft, data cutoff 2026-08-09. Licence: CC BY-NC-SA 4.0}
 }

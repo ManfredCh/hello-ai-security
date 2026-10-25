@@ -48,7 +48,7 @@ This minimal internal chain explains why photorealistic imagery is not sufficien
 
 ### Environment World Model: Take External Environment Evolution as the Main Output
 
-The environment world model emphasizes the visual, geometric, or interactive evolution of the external environment. It may generate future frames, latent variables, or interactive scenes. Those outputs can come from images, text, maps, 3D boxes, camera actions, or other conditions. EWM is a working definition adopted by this survey, and its abbreviation and boundary are not yet as stable as WM. When classifying, state the decision rules publicly and mark the state of community consensus as still forming. The minimal input–output relation of EWM can be written as
+The environment world model emphasizes the visual, geometric, or interactive evolution of the external environment. It may generate future frames, latent variables, or interactive scenes. Those outputs can come from images, text, maps, 3D boxes, camera actions, or other conditions. EWM is a working definition adopted by this survey, and its abbreviation and boundary are not yet as stable as WM. When classifying, state the decision rules publicly and mark the state of community consensus as still forming. Two October 2026 releases moved that consensus along. Odyssey-3 shipped as a real-time interactive foundation world model, taking the 'persistent interactive world' from demonstration toward product claim. And Towards Safe World Models (arXiv 2610.13372) organised a 163-work safety corpus around a six-stage lifecycle whose stages map closely onto the WM/EWM/WAM/WCM consumers this chapter separates — an external taxonomy against which these boundaries can now be cross-checked. The minimal input–output relation of EWM can be written as
 
 \[
 \hat o_{t+1:t+H}=G_\phi(o_{\le t},z_{t:t+H}),
@@ -272,9 +272,6 @@ The consumer is what separates reactive VLAs, candidate-style WAMs and robust-MP
 A world model may also predict only reward and value without reconstructing pixels. It maintains state useful for planning and predicts future variables that affect decisions. On those conditions it still meets the minimum functional definition of a WM. In that case, visual quality metrics cannot reflect reward error, candidate flipping or constraint mismatch. Testing should turn to value calibration, ranking margin and real execution feedback.
 
 If the three modules share a map encoder, a poisoned map, a coordinate mismatch or an out-of-distribution scene becomes a common-cause risk. Independent localization sources, actuator state readback and geometric safety controllers can supply separate roots of trust. Deployment records should separate the controls that only check offline generation from those that can block consequences before candidate ranking or real-time execution.
-
-
-October gave Part V two external anchors. Towards Safe World Models (arXiv 2610.13372) organised a 163-work safety corpus around a six-stage lifecycle that maps closely onto this chapter's boundaries. Odyssey-3 shipped as a real-time interactive foundation world model, moving the 'persistent interactive world' assumption from demonstration toward product claim. Neither alters the WM/EWM/WAM/WCM contracts; both raise the evidence ceiling for the deployment-facing chapters that follow.
 
 ## Summary: the model category is decided by the consumer
 
